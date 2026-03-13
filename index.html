@@ -1,109 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aahar Zen</title>
-  <style>
-    body{
-      margin:0;
-      font-family: Arial, sans-serif;
-      background:#FDF6EC;
-      color:#3b2418;
-    }
-    .wrap{
-      max-width:900px;
-      margin:40px auto;
-      background:#fff;
-      padding:36px;
-      border-radius:16px;
-      box-shadow:0 10px 30px rgba(0,0,0,0.08);
-    }
-    h1{
-      margin-top:0;
-      color:#6B3A1F;
-      font-size:34px;
-    }
-    h2{
-      color:#E8792A;
-      margin-top:28px;
-    }
-    p, li{
-      line-height:1.7;
-      font-size:16px;
-    }
-    .badge{
-      display:inline-block;
-      background:#F5A623;
-      color:#fff;
-      padding:8px 14px;
-      border-radius:999px;
-      font-size:14px;
-      margin-bottom:16px;
-    }
-    a{
-      color:#6B3A1F;
-      font-weight:bold;
-      text-decoration:none;
-    }
-    a:hover{
-      text-decoration:underline;
-    }
-    .footer{
-      margin-top:32px;
-      font-size:14px;
-      color:#7a5a46;
-      border-top:1px solid #eee;
-      padding-top:16px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Aahar Zen</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#F6EFE7;
+color:#3b2a1a;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+background:white;
+padding:40px;
+margin-top:40px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+h1{
+text-align:center;
+color:#5b3a21;
+margin-bottom:10px;
+}
+
+.tagline{
+text-align:center;
+color:#a85b28;
+margin-bottom:30px;
+}
+
+p{
+line-height:1.7;
+}
+
+.section{
+margin-top:35px;
+}
+
+.screenshots{
+display:flex;
+gap:25px;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.screenshots img{
+width:220px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.caption{
+text-align:center;
+margin-top:8px;
+font-size:14px;
+color:#666;
+}
+
+.footer{
+margin-top:40px;
+text-align:center;
+font-size:14px;
+color:#888;
+border-top:1px solid #eee;
+padding-top:15px;
+}
+
+a{
+color:#c46020;
+text-decoration:none;
+font-weight:bold;
+}
+
+</style>
+
 </head>
+
 <body>
-  <div class="wrap">
-    <div class="badge">Android App • In Development</div>
-    <h1>Aahar Zen</h1>
 
-    <p>
-      Aahar Zen is a kirana-style e-commerce Android app for selling fresh spices,
-      masalas, and coming soon multigrains.
-    </p>
+<div class="container">
 
-    <p>
-      The app is being built using Kotlin, Jetpack Compose, and Firebase to provide
-      a smooth shopping experience for customers and easy order/product management
-      for admins.
-    </p>
+<h1>Aahar Zen</h1>
+<div class="tagline">
+Fresh Spices • Masalas • Multigrains
+</div>
 
-    <h2>Core Features</h2>
-    <ul>
-      <li>User login and registration</li>
-      <li>Browse products by category</li>
-      <li>Product details and cart system</li>
-      <li>Checkout with Cash on Delivery and UPI</li>
-      <li>Order history and order tracking</li>
-      <li>Admin dashboard for products and orders</li>
-    </ul>
+<div class="section">
 
-    <h2>Current Status</h2>
-    <p>
-      The application is currently under development and testing, and has not yet
-      been published on the Google Play Store.
-    </p>
+<p>
+Aahar Zen is an Android e-commerce application designed for selling fresh spices,
+masalas and soon multigrain products. The app allows customers to browse products,
+select pack sizes, add items to cart and place orders easily.
+</p>
 
-    <h2>Developer</h2>
-    <p>RTD Creatives</p>
+<p>
+The application is currently under development and testing and will soon be
+published on the Google Play Store.
+</p>
 
-    <h2>Support</h2>
-    <p>shribaijnathji.spices@gmail.com</p>
+</div>
 
-    <h2>Policy Links</h2>
-    <p>
-      <a href="https://shribaijnathjispices-tech.github.io/delete-account/">Delete Account Policy</a>
-    </p>
+<div class="section">
 
-    <div class="footer">
-      © 2026 RTD Creatives
-    </div>
-  </div>
+<h2>Core Features</h2>
+
+<ul>
+<li>Browse spices and masala products</li>
+<li>Select pack sizes (50g, 100g, 250g, etc.)</li>
+<li>Add products to cart</li>
+<li>Simple checkout system</li>
+<li>Order tracking</li>
+<li>Admin panel for managing products and orders</li>
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2>App Screenshots</h2>
+
+<div class="screenshots">
+
+<div>
+<img src="login.png">
+<div class="caption">Login Screen</div>
+</div>
+
+<div>
+<img src="home.png">
+<div class="caption">Product Catalogue</div>
+</div>
+
+<div>
+<img src="product.png">
+<div class="caption">Product Detail Page</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Developer</h2>
+
+<p>
+RTD Creatives
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Support</h2>
+
+<p>
+Email: shribaijnathji.spices@gmail.com
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Policies</h2>
+
+<p>
+<a href="https://shribaijnathjispices-tech.github.io/delete-account/">
+Delete Account Policy
+</a>
+</p>
+
+</div>
+
+<div class="footer">
+© 2026 RTD Creatives
+</div>
+
+</div>
+
 </body>
+
 </html>
